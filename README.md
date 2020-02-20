@@ -24,7 +24,7 @@ socksmethod: none
 
 # Allow IP's/Subnet to connect to this server
 client pass {
-	from: 10.13.0.0/16 to: 0.0.0.0/0
+	from: 192.168.1.0/24 to: 0.0.0.0/0
 	log: error connect disconnect
 }
 
